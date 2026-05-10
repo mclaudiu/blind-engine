@@ -1,6 +1,14 @@
 # blind-engine
 Not replacing, but helps you control your blinds
 
+# Blind Engine Control (AM43 / Brunt)
+
+This project provides a Python and PHP-based solution for controlling Bluetooth LE blind motors (AM43/Brunt) on Linux systems like Rocky Linux 9.
+
+## Features
+- **Direct BLE Control**: Move blinds to specific positions (0-100%).
+- **Battery Monitoring**: Decodes the specific 5-byte hex battery reports used by Brunt/Blind Engine hardware.
+- **Web Dashboard**: A PHP-based interface with a real-time console log for easy monitoring.
 
 Implemented on **Rocky Linux 9**<BR>
 Your blinds have to have the low and high position set from the app (not available in app store) :(<BR>
