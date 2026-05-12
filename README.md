@@ -46,5 +46,5 @@ If you did all the above but the scripts does not work, use blinds_discover.py (
 UUID_NOTIFY = "0000fe51-0000-1000-8000-00805f9b34fb" # Handle 13<BR>
 
 **blinds.py works from command line too:**<BR>
-python3 /var/www/html/blinds.py living battery<BR>
-python3 /var/www/html/blinds.py living move 47<BR>
+python3 blinds.py living battery<BR>
+python3 blinds.py living move 47<BR>
